@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/chathosttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Chat Host"
+        />
+
+    <EditText
+        android:id="@+id/chathost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="chat.xyz.com"
+        />
+
+    <TextView
+        android:id="@+id/groupchathosttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Group Chat Host"
+        />
+    <EditText
+        android:id="@+id/groupchathost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="conference.xyz.com"
+        />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Username"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="admin"
+        />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Password"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="admin"
+        />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Group"
+        />
+    <EditText
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="g4"
+        />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Connect"/>
+</LinearLayout>

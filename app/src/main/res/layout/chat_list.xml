@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Mesaages"
+        />
+
+    <ListView
+        android:id="@+id/ChatsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/screenBgColor"
+        android:background="@color/screenBgColor"
+        android:dividerHeight="20dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+</LinearLayout>

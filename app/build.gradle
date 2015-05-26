@@ -1,0 +1,28 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.0'
+    compile fileTree(include: '*.jar', dir: 'libs')
+
+    compile "org.igniterealtime.smack:smack-android:4.1.0-beta2"
+    compile "org.igniterealtime.smack:smack-tcp:4.1.0-beta2"
+    compile "org.igniterealtime.smack:smack-extensions:4.1.0-beta2"
+}
